@@ -10,7 +10,7 @@ body {
 
 .month-table {
   margin: 0 auto 100px;
-  border: 1px solid #ccefff;
+  border: 1px solid #009999;
   padding: 10px;
 }
 
@@ -24,11 +24,11 @@ h2 { font-size: 30px; }
   border: 0;
   text-transform: uppercase;
   margin: 0 10px;
-  border: 2px solid #ccf4ff;
+  border: 2px solid #009999;
 }
 
 .month-menuitem.active {
-  background: #ccf4ff;
+  background: #009999;
   color: #000;
 }
 
@@ -36,7 +36,7 @@ a {
   color: #333333;
   text-decoration: none;
   padding-bottom: 0px;
-  border-bottom: 2px #CCF4FF solid;
+  border-bottom: 2px #009999 solid;
 }
 
 a:hover {
@@ -105,7 +105,7 @@ td {
   display: block;
   content: "";
   width: 24px; height: 24px;
-  border: 1px solid #36FFA3;
+  border: 1px solid #006666;
   border-radius: 24px;
   position: absolute;
   left: 50%;
