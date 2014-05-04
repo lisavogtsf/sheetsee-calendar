@@ -42,7 +42,7 @@ function appendEvent( event ) {
   eventStartDate = new Date(event.startdate)
   eventEndDate   = new Date(event.enddate)
   eventElement   = $('<div class="event"><a target="_blank" href="' + event.tickets + '">' + event.name + '</a></div>')
-  eventCategory  = $('<div class="event"> + event.category + '</div>')
+  eventCategory  = $('<div class="event">' + event.category + '</div>')
    
   // Handle multi-days
   if( eventEndDate.getDate() ) {
