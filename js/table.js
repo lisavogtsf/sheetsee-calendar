@@ -41,7 +41,7 @@ function addMonthMenu() {
 function appendEvent( event ) {
   eventStartDate = new Date(event.startdate)
   eventEndDate   = new Date(event.enddate)
-  eventElement   = $('<div class="event"><a target="_blank" href="' + event.tickets + '">' + event.name + event.Category '</a></div>')
+  eventElement   = $('<div class="event"><a target="_blank" href="' + event.tickets + '">' + event.name + '</a></div>')
    
   // Handle multi-days
   if( eventEndDate.getDate() ) {
