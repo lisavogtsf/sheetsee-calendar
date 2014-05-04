@@ -37,13 +37,11 @@ function addMonthMenu() {
   }
 }
 
-// Function Lisa is adding eventCategory to
-// So far not displaying
+// Function Lisa should be able to add stuff to
 function appendEvent( event ) {
   eventStartDate = new Date(event.startdate)
   eventEndDate   = new Date(event.enddate)
   eventElement   = $('<div class="event"><a target="_blank" href="' + event.tickets + '">' + event.name + event.Category '</a></div>')
-  eventCategory  = $('<div class="event">' + event.category + '</div>')
    
   // Handle multi-days
   if( eventEndDate.getDate() ) {
