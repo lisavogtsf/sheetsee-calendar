@@ -64,6 +64,7 @@ a:hover {
 
 .event a {
   color: #fff;
+  font-weight: bold;
   border: 0;
 }
 
