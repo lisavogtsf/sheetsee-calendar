@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #47CCFC;
+  color: #009999;
 }
 
 td {
@@ -87,7 +87,7 @@ td {
   display: block;
   content: "";
   width: 24px; height: 24px;
-  background: #36FFA3;
+  background: #006666;
   border-radius: 24px;
   position: absolute;
   left: 50%;
