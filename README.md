@@ -1,3 +1,5 @@
+hello!
+
 # Beginning Computer Resources
 
 A simple calendar bringing together information about events for beginning computer users in the San Francisco Bay Area, based on Sheetsee.js.
